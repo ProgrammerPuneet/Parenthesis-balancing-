@@ -22,6 +22,6 @@ int main()
 			{if (a[t]==']')
 				t=t-2;}}
 	if (t==-1)
-		printf("Yes");
+		printf("Balanced");
 	else
-		printf("No");}
+		printf("Not Balanced");}
